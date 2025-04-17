@@ -35,12 +35,8 @@ ResearchBunny.init({
 
 To get the `WIDGET_ID`, signup on https://www.researchbunny.com and navigate to widget section. Refer to tutorial for more information.
 
-## Scripts
-
-- **`npm run build`** — Compile TypeScript to JavaScript in `dist/`.
-- **`npm publish`** — Publish package (build runs automatically via `prepublishOnly`).
-
 ## Resources
 
+- **Demo**: https://www.researchbunny.com/widget?widgetId=cm29vjnwh00036r0rkw01os9z
 - **Tutorial**: https://www.youtube.com/watch?v=pZrbjF2vCVE
 - **Website**: https://www.researchbunny.com
