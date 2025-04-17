@@ -1,6 +1,6 @@
 {
   "name": "@researchbunny/rb-widget",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dynamically inject the ResearchBunny rbWidget.js script via a simple init call",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
