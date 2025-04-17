@@ -10,9 +10,11 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "husky": "^8.0.0",
     "typescript": "^5.0.0"
   },
   "keywords": [
