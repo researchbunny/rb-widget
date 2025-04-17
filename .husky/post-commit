@@ -1,4 +1,13 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
-npm version patch --no-git-tag-version &&    git add package.json package-lock.json &&    git commit -m 'chore(release): bump version [skip ci]'
+# Don’t run on bump commits
+LAST_MSG="$(git log -1 --pretty=%B)"
+if echo "$LAST_MSG" | grep -q "bump version"; then
+  exit 0
+fi
+
+# Bump patch version (no tag), commit and stop
+npm version patch --no-git-tag-version
+git add package.json package-lock.json
+git commit -m "chore(release): bump version [skip ci]"
