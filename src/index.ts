@@ -1,5 +1,4 @@
 /**
- * researchbunny-widget v1.0.0
  * Exposes a global ResearchBunny object with init() to load the rbWidget script.
  */
 
