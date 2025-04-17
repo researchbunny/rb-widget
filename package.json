@@ -1,6 +1,6 @@
 {
   "name": "@researchbunny/rb-widget",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Boost your website's impact with the ResearchBunny Widget! Deliver audio summaries of research papers effortlessly, engage your audience, and make knowledge more accessible.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
