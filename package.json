@@ -1,0 +1,27 @@
+{
+  "name": "@researchbunny/rb-widget",
+  "version": "1.0.0",
+  "description": "Dynamically inject the ResearchBunny rbWidget.js script via a simple init call",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/researchbunny/rb-widget.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "researchbunny",
+    "widget",
+    "paper to audio",
+    "node",
+    "npm"
+  ],
+  "author": "ResearchBunny <team@researchbunny.com>",
+  "license": "MIT"
+}
