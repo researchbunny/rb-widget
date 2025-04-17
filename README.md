@@ -1,8 +1,10 @@
-# @researchbunny/rb-widget
+# ResearchBunny Widget
 
-Dynamically inject the ResearchBunny `rbWidget.js` script via a simple `init` call.
+Boost your website's impact with the ResearchBunny Widget! 🎧 Deliver audio summaries of research papers effortlessly, engage your audience, and make knowledge more accessible.
 
----
+- **Collection Widget**: Embed a scrollable list of audio summaries for your whole paper library—visitors can browse and play key insights with one click.  
+- **Chat With Paper Widget**: Let users “chat” with any paper—ask questions in plain English and get instant, context‑aware answers.  
+
 
 ## Installation
 
@@ -27,15 +29,6 @@ ResearchBunny.init({
   container: document.getElementById('app'), // (optional) where to append the script
 });
 ```
- 
-## API Reference
-
-### `ResearchBunny.init(options)`
-
-- **options.widgetId** `(string)` — Your ResearchBunny widget ID (required).
-- **options.widgetType** `("collection" | "single")` — Choose between collection or single widget (default: `"collection"`).
-- **options.container** `(HTMLElement)` — DOM element to append the `<script>` to (default: `document.body`).
-
 
 ## Scripts
 
